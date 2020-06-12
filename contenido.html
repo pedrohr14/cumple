@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sitio Cumpleaños">
+    <meta name="author" content="Pedro Michel Hernandez Rojas">
+    <title>{titulo}</title>
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+	font-size: large;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template 
+    <link href="css/style.css" rel="stylesheet"> 
+    -->
+</head>
+<body>
+ 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <p class="navbar-brand">{titulo}</p>
+    </div>
+    <p class="navbar-right navbar-text">{fecha}</p>
+  </div>
+</nav>
+  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      
+      <!-- Form Begin -->
+      <form class="form-horizontal" method="post">
+      <fieldset>
+
+      <!-- Form Name -->
+      <legend>Listado</legend>
+
+      <!-- Select Basic Desde -->
+      <div class="form-group">
+        <label class="col-md-6 control-label">Desde el mes de</label>
+            <div class="col-md-6">
+                {select1}
+            </div>
+      </div>
+
+      <!-- Select Basic Hasta -->
+      <div class="form-group">
+        <label class="col-md-6 control-label">Hasta el mes de</label>
+            <div class="col-md-6">
+                {select2}
+            </div>
+      </div>
+
+      <!-- Button Buscar -->
+      <div class="form-group">
+        <div class="col-md-4">
+            <input class="btn btn-primary" type="submit" name="aceptar" value="Buscar">
+        </div>
+      </div>
+
+      <!-- Button de la Semana -->
+      <div class="form-group">
+        <div class="col-md-4">
+          <input class="btn btn-primary" type="submit" name="semana" value="De la Semana">
+        </div>
+      </div>
+
+      </fieldset>
+      </form>
+      <!-- Form End -->   
+    </div>
+    <div class="col-sm-4">
+      <img alt="logo" src="images/cumple.png" />
+    </div>
+    <div class="col-sm-4">
+      <img alt="logo2" src="images/ausa.png" />
+    </div>  
+
+     
+    </div>
+      <!--Pagina-->
+       {pagina}
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+<footer class="panel-footer">
+  <p> &#169 Grupo Infocom Las Tunas, 2020</p> 
+</footer>
+
+        <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <script src="js/js.js" type="text/javascript"></script>
+</body>
