@@ -1,13 +1,13 @@
 <?php
-//Declaración de variables de configuración global
+//DeclaraciÃ³n de variables de configuraciÃ³n global
 
 // Nombre del servidor SQL
-$host='versat.tunas.ausa.cu';
+$host='';
 // Ususario del SQL
 $usuario='sa';
-// Contraseña del SQL
-$contraseña='Versat2019*';
-// Título de la paágina Web
-$sitio='CUMPLEAÑOS | Sucursal Las Tunas';
+// ContraseÃ±a del SQL
+$contraseÃ±a='';
+// TÃ­tulo de la paÃ¡gina Web
+$sitio='CUMPLEAÃ‘OS | Empresa';
 // DB
-$RH_bd='TUNAS_VERSAT';
+$RH_bd='';
